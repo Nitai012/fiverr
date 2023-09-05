@@ -4,7 +4,7 @@ import React from "react";
 function Card({ img, sellerName, sellerImg, lvl, description, rating, price }) {
     return (
         <>
-            <div className="bg-transparent  w-[20rem] flex-col">
+            <div className="bg-transparent  w-[17rem] flex-col">
                 <div className="">
                     <div>
                         <img src={img} className="w-[100%] border rounded-lg hover:cursor-pointer" alt="" />

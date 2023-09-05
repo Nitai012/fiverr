@@ -4,8 +4,8 @@ import Card from './card'
 
 function Homepage2() {
     return (
-        <div className=" w-[100%] items-stretch justify-center flex-col shadow-sm shadow-gray-100 ml-[10rem]">
-            <div className=''>
+        <div className=" w-[100%] items-stretch justify-center flex-col shadow-sm shadow-gray-100 ">
+            <div className='ml-[10rem]'>
                 <div className='font-bold font-sans text-3xl my-10 '>Recently Viewed & More</div>
                 <div className=' '>
                     <cotainer className="flex-row inline-flex ">
@@ -24,7 +24,7 @@ function Homepage2() {
                     </cotainer>
                 </div>
             </div>
-            <div >
+            <div className='ml-[10rem]'>
                 <div>
                     <div className='font-bold font-sans text-3xl my-10 '>Popular services</div>
                 </div>

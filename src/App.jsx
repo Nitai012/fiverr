@@ -8,11 +8,12 @@ import CustomSpan from './components/CustomSpan'
 import Rec from './components/recommendation'
 import Card from './components/card'
 import Card2 from './components/Card2'
+import HomePage3 from './components/HomePage3'
 function App() {
   return (
     <><Homepage1 />
       <Homepage2 />
-      <Card2 />
+      <HomePage3 />
 
     </>
   )
