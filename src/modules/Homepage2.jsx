@@ -1,6 +1,7 @@
 
 import React from 'react'
-import Card from './card'
+import Card from '../components/card'
+import Card2 from '../components/Card2'
 
 function Homepage2() {
     return (
@@ -26,7 +27,14 @@ function Homepage2() {
             </div>
             <div className='ml-[10rem]'>
                 <div>
-                    <div className='font-bold font-sans text-3xl my-10 '>Popular services</div>
+                    <div className='font-bold font-sans text-3xl my-10  flex-row'>Popular services</div>
+                    <div className='flex mx-[0.5rem]'>
+                        <Card2 str1="hello" str2="hello again" img="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_305,dpr_1.0/v1/attachments/generic_asset/asset/7ead3b2056987e6fa3aad69cf897a50b-1690383161247/ai-artists-2x.png" />
+                        <Card2 str1="hello" str2="hello again" img="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_305,dpr_1.0/v1/attachments/generic_asset/asset/7ead3b2056987e6fa3aad69cf897a50b-1690383161257/logo-design-2x.png" />
+                        <Card2 str1="hello" str2="hello again" img="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_305,dpr_1.0/v1/attachments/generic_asset/asset/7ead3b2056987e6fa3aad69cf897a50b-1690383161257/wordpress-2x.png" />
+                        <Card2 str1="hello" str2="hello again" img="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/7ead3b2056987e6fa3aad69cf897a50b-1690383161253/voice-over-2x.png" />
+                        <Card2 str1="hello" str2="hello again" img="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/7ead3b2056987e6fa3aad69cf897a50b-1690383161245/animated-explainer-2x.png" />
+                    </div>
                 </div>
             </div>
         </div>

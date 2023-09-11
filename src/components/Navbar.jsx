@@ -14,12 +14,12 @@ function upArrow() {
     )
 }
 function Navbar() {
-    const [currentFill, setCurrentFill] = useState(downArrow);
+    const [currentFill, setCurrentFill] = useState(false);
     const SetArrow = () => {
-        if (currentFill === downArrow) {
-            setCurrentFill(upArrow);
+        if (currentFill) {
+            setCurrentFill(false);
         } else {
-            setCurrentFill(downArrow);
+            setCurrentFill(true);
         }
     };
     return (
@@ -30,7 +30,7 @@ function Navbar() {
             <ul onClick={SetArrow} className='whitespace-nowrap flex gap-[2rem] list-none mr-[10rem] items-center'>
                 <li className='mx-1 flex cursor-pointer'>
                     Buslness solutions
-                    {currentFill}
+                    {currentFill ? <svg className='ml-1 mt-1' width="16" height="16" viewBox="0 0 14 9" xmlns="http://www.w3.org/2000/svg" fill="currentFill"><path fill='black' d="M.19 1.272.81.653a.375.375 0 0 1 .53 0L7 6.3 12.66.653a.375.375 0 0 1 .53 0l.62.62a.375.375 0 0 1 0 .53L7.264 8.346a.375.375 0 0 1-.53 0L.19 1.802a.375.375 0 0 1 0-.53Z"></path></svg> : <svg className='ml-1 mt-1' width="16" height="16" viewBox="0 0 14 9" xmlns="http://www.w3.org/2000/svg" fill="currentFill"><path fill='white' d="M.19 1.272.81.653a.375.375 0 0 1 .53 0L7 6.3 12.66.653a.375.375 0 0 1 .53 0l.62.62a.375.375 0 0 1 0 .53L7.264 8.346a.375.375 0 0 1-.53 0L.19 1.802a.375.375 0 0 1 0-.53Z"></path></svg>}
                 </li>
                 <li className='cursor-pointer'>
                     Explore

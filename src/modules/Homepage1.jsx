@@ -1,8 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import CustomSpan from './CustomSpan';
-import Navbar from './Navbar'
-import Rec from './recommendation'
+import CustomSpan from '../components/CustomSpan';
+import Navbar from '../components/Navbar';
 function Homepage1() {
     return (
         <>
