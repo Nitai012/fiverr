@@ -1,3 +1,3 @@
 # React + Vite
 
-https://github.com/Nitai012/fiverr
+https://nitai012.github.io/fiverr/
